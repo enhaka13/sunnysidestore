@@ -1,8 +1,11 @@
+import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import React from 'react'
 
 export default function Home() {
   return (
-    <p>Hello Admin Dashboard</p>
+    <div className="p-4">
+      <Button>Sign in</Button>
+    </div>
   )
 }
